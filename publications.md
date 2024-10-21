@@ -85,7 +85,7 @@ title: Publications
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2310.10610"><i class="fas fa-file-alt"></i> arXiv</a>
         <a href="https://arxiv.org/pdf/2310.10610"><i class="fas fa-file-pdf"></i> PDF</a>
-        <a href="https://ood-human.github.io/"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://ood-human.github.io/"><i class="fas f/home/atharva-globe"></i> Website</a>
         <a href="#"><i class="fas fa-book"></i> BibTeX</a>
       </div>
       <p class="note">* denotes equal contribution.</p>
@@ -257,42 +257,6 @@ title: Publications
       <div class="publication-links">
         <a href="https://arxiv.org/abs/2208.10687"><i class="fas fa-file-alt"></i> arXiv</a>
         <a href="https://arxiv.org/pdf/2208.10687"><i class="fas fa-file-pdf"></i> PDF</a>
-        <a href="#"><i class="fas fa-book"></i> BibTeX</a>
-      </div>
-      <p class="note">* denotes equal contribution.</p>
-    </div>
-  </div>
-
-  <div class="publication">
-    <div class="publication-image">
-      <img src="{{ '/assets/images/publication1.png' | relative_url }}" alt="Publication Image">
-    </div>
-    <div class="publication-info">
-      <h2>Paper Title</h2>
-      <p><strong>Author 1*, Author 2*, Author 3, Faulty</strong></p>
-      <p><em>Conference, Month Year.</em></p>
-      <div class="publication-links">
-        <a href="#"><i class="fas fa-file-alt"></i> arXiv</a>
-        <a href="#"><i class="fas fa-file-pdf"></i> PDF</a>
-        <a href="#"><i class="fas fa-globe"></i> Website</a>
-        <a href="#"><i class="fas fa-book"></i> BibTeX</a>
-      </div>
-      <p class="note">* denotes equal contribution.</p>
-    </div>
-  </div>
-
-  <div class="publication">
-    <div class="publication-image">
-      <img src="{{ '/assets/images/publication1.png' | relative_url }}" alt="Publication Image">
-    </div>
-    <div class="publication-info">
-      <h2>Paper Title</h2>
-      <p><strong>Author 1*, Author 2*, Author 3, Faulty</strong></p>
-      <p><em>Conference, Month Year.</em></p>
-      <div class="publication-links">
-        <a href="#"><i class="fas fa-file-alt"></i> arXiv</a>
-        <a href="#"><i class="fas fa-file-pdf"></i> PDF</a>
-        <a href="#"><i class="fas fa-globe"></i> Website</a>
         <a href="#"><i class="fas fa-book"></i> BibTeX</a>
       </div>
       <p class="note">* denotes equal contribution.</p>
