@@ -2,12 +2,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Body styling */
 body {
   font-family: 'Arial', sans-serif;
   font-size: 20px;
+  line-height: 1.6;
   padding-top: 70px; /* Adjust based on header height */
 }
 
@@ -30,6 +32,7 @@ header .inner {
 /* Navbar styling */
 .navbar {
   display: flex;
+  flex-wrap: wrap; /* Added flex-wrap for overflow handling */
   align-items: center;
   width: 100%;
   justify-content: space-between;
@@ -66,6 +69,7 @@ header .inner {
 
 .nav-list li a:hover {
   color: #b22222; /* Change the color on hover */
+  transition: color 0.2s ease-in-out; /* Added smoother hover transition */
 }
 
 /* External link image styling */
@@ -207,7 +211,6 @@ header .inner {
   transition: background-color 0.3s ease-in-out;
 }
 
-
 .note {
   font-size: 12px;
   color: #555;
@@ -292,6 +295,15 @@ footer p {
   .publication-links a:last-child {
     margin-bottom: 0;
   }
+
+  /* Responsive typography adjustments */
+  body {
+    font-size: 18px;
+  }
+
+  h1, h2, h3 {
+    font-size: 90%;
+  }
 }
 
 /* Additional CSS from your original main.css file */
@@ -351,7 +363,55 @@ li > ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 400;/* Videos section styling */
+.videos-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.videos-section h1,
+.videos-section h2 {
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.video-item-info {
+  margin-bottom: 20px;
+}
+
+.video-item-info h3 {
+  font-family: 'Georgia', serif;
+  color: #b22222;
+  margin-bottom: 10px;
+}
+
+.video-item-info p {
+  margin-bottom: 10px;
+}
+
+.video-item iframe {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-item-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #b22222;
+  font-size: 20px;
+}
+
+.video-item-links a:hover {
+  color: #111;
+}
+
 }
 
 a {
@@ -598,7 +658,7 @@ table td {
   }
   .footer-col-3 {
     width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
+    width: calc(100% - (30px));
   }
 }
 @media screen and (max-width: 600px) {
@@ -682,6 +742,119 @@ table td {
     font-size: 18px;
   }
 }
+
+/* Videos section styling */
+.videos-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.videos-section h1,
+.videos-section h2 {
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.video-item-info {
+  margin-bottom: 20px;
+}
+
+.video-item-info h3 {
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+}
+
+.video-item-info p {
+  margin-bottom: 10px;
+}
+
+.video-item iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-item-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #b22222;
+  font-size: 20px;
+}
+
+.video-item-links a:hover {
+  color: #111;
+}
+
+/* Home section styling */
+.home-section {
+  padding: 20px;
+  background-color: #ffffff; /* White background for a clean look */
+}
+
+.home-section h1,
+.home-section h2 {
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.home-feature {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.home-feature-info {
+  flex: 1;
+}
+
+.home-feature-info p {
+  margin-bottom: 10px;
+}
+
+.lab-name {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #f9f9f9; /* Light background to highlight the lab name */
+  border-bottom: 2px solid #b22222; /* Optional underline */
+}
+
+.lab-name h1 {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Adjust the banner to align with overall styling */
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
 
 .highlight {
   background: #fff;

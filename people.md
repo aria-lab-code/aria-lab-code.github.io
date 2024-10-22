@@ -67,7 +67,7 @@ title: People
     <img src="{{ '/assets/images/AtharvBelsare.jpg' | relative_url }}" alt="Atharv" class="person-photo">
     <div class="person-info">
       <h3>Atharv Belsare</h3>
-      <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras semper auctor neque vitae. In nisl nisi scelerisque eu ultrices vitae auctor eu. Nunc pulvinar sapien et ligula ullamcorper. Sociis natoque penatibus et magnis dis parturient montes. Sed lectus vestibulum mattis ullamcorper. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Scelerisque eu ultrices vitae auctor. Facilisis leo vel fringilla est ullamcorper eget nulla. Lectus nulla at volutpat diam ut venenatis tellus in metus. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Facilisis magna etiam tempor orci. Suscipit adipiscing bibendum est ultricies integer quis.</p>
+      <p>I am a first year Ph.D. student in Computer Science at the Kahlert School of Computing. My research interests include Human-Robot Interaction and Assistive Robotics.</p>
       <div class="person-links">
         <a href="#"><i class="fas fa-home"></i></a>
         <a href="#"><i class="fas fa-graduation-cap"></i></a>

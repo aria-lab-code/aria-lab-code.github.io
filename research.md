@@ -3,7 +3,9 @@ layout: default
 title: Research
 ---
 
-# Research
+<div class="publications-section">
+    <h1>Research</h1>
+</div>
 
 Welcome to our research page! Our lab is focused on advancing the fields of human-centered AI and human-robot interaction, with specific emphasis on reward learning, assistive and medical robotics, safety and robustness, and multi-agent systems.
 
