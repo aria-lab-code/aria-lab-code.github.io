@@ -22,14 +22,16 @@ title: Home
   </div>
 
 
-  <!---<h2>Recent News</h2>
+<h2>Recent News</h2>
   <div class="home-feature">
     <div class="home-feature-info">
       <p>
-        Here you can add recent updates or news. For example, new research findings, publications, events, etc.
-      </p>
+        <ul>
+            <li> Congrats to Chia, Eric, and Connor for getting their paper "A dataset of paired head and eye movements during visual tasks in virtual environments" accepted by Scientific Data - Nature.</li>
+            <li> Congrats to Atharv, Connor, and Zohre for getting their paper "Toward Zero-Shot User Intent Recognition in Shared Autonomy" accepted by the ACM/IEEE International Conference on Human-Robot Interaction (HRI'25).</li>
+        </ul>
+        </p>
     </div>
   </div>
-  -->
 </div>
 
