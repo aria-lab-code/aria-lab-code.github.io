@@ -89,4 +89,30 @@ title: People
     </div>
   </div>
 
+  <div class="person">
+    <img src="{{ '/assets/images/AliLarian.jpg' | relative_url }}" alt="Ali" class="person-photo">
+    <div class="person-info">
+      <h3>Ali Larian</h3>
+    <p>I am a PhD student at the University of Utah, working under the supervision of Dr. Daniel Brown. My research focuses on designing and implementing models that enable robots to self-assess their performance and operate independently of human supervision, while remaining aligned with human objectives. To achieve this, I use a variety of tools, including Reinforcement Learning (RL), Inverse Reinforcement Learning (IRL), Bayesian IRL, and learning from different types of human feedback.
+In my free time, you can find me playing tennis or swimming. I also enjoy reading and discussing topics related to economics.</p>  
+    <div class="person-links">
+        <a href="https://github.com/Alilarian"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="person">
+    <img src="{{ '/assets/images/AkanshaKalra.png' | relative_url }}" alt="Akansha" class="person-photo">
+    <div class="person-info">
+      <h3>Akansha Kalra</h3>
+    <p>I'm a PhD student in the CS program advised by Dr. Daniel Brown. I graduated with an MS in Electrical and Computer Engineering from Carnegie Mellon University . </p>  
+    <div class="person-links">
+        <a href="https://akansha-kalra.github.io/ "><i class="fas fa-home"></i></a>
+        <a href="https://scholar.google.com/citations?user=QrkO660AAAAJ&hl=en"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://github.com/akansha-kalra"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+    
+
 </div>
