@@ -27,6 +27,7 @@ title: Home
     <div class="home-feature-info">
       <p>
         <ul>
+            <li>Congrats to Connor and Varun for their paper, "Discovery and Deployment of Emergent Robot Swarm Behaviors via Representation Learning and Real2Sim2Real Transfer," accepted by the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'25)</li>
             <li> Congrats to Chia, Eric, and Connor for getting their paper "A dataset of paired head and eye movements during visual tasks in virtual environments" accepted by Scientific Data - Nature.</li>
             <li> Congrats to Atharv, Connor, and Zohre for getting their paper "Toward Zero-Shot User Intent Recognition in Shared Autonomy" accepted by the ACM/IEEE International Conference on Human-Robot Interaction (HRI'25).</li>
         </ul>
