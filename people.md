@@ -113,6 +113,55 @@ In my free time, you can find me playing tennis or swimming. I also enjoy readin
       </div>
     </div>
   </div>
-    
+
+  <div class="person">
+    <img src="{{ '/assets/images/VarunRaveendra.jpg' | relative_url }}" alt="Varun" class="person-photo">
+    <div class="person-info">
+      <h3>Varun Raveendra</h3>
+    <p>I am a PhD student at the University of Utah. My research interests include Reinforcement Learning with Robots, RLHF, Swarm Robots, and Multi-Agent Robots.</p>  
+    <div class="person-links">
+        <a href="https://github.com/varunraveendra"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/varun-robotics/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <h2>MS Students</h2>
+  <div class="person">
+    <img src="{{ '/assets/images/SeongilHeo.jpeg' | relative_url }}" alt="Seongil" class="person-photo">
+    <div class="person-info">
+      <h3>Seongil Heo</h3>
+        <p>I am a first-year M.S. student in Computer Science at the University of Utah. I am advised by Professor Daniel Brown and conduct research focusing on multi-agent systems and Swarm Robotics.</p>
+    <div class="person-links">
+        <a href="https://scholar.google.com/citations?hl=en&user=oKwnKJoAAAAJ"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://github.com/seongilHeo"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/seongil-heo-5469aa1b3/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="person">
+    <img src="{{ '/assets/images/ParthBhandari.jpeg' | relative_url }}" alt="Parth" class="person-photo">
+    <div class="person-info">
+      <h3>Parth Bhandari</h3>
+        <p>I am a first-year M.S. student majoring in Computer Science, working under the supervision of Dr. Daniel Brown. My research interests include Generative AI, Large Language Models, and I have experience with recommendation systems and conversational chatbots.</p>
+    <div class="person-links">
+        <a href="https://github.com/parthbhandari1"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/parthbhandari/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <h2>Alumni</h2>
+  <div class="person">
+    <img src="{{ 'assets/images/AndaXie.jpg' | relative_url }}" alt="Anda" class="person-photo">
+    <div class="person-info">
+      <h3>Anda Xie</h3>
+        <p>I am a High School Junior at West High School volunteering as an intern at the Kahlert School of Computing at the University of Utah. In the summer of 2024, I worked in Professor Daniel Brown’s research laboratory assisting in the construction of swarm robots for research in emergent behavior as well as the operation of a ROS control system. I am interested in both software and hardware development. I plan to pursue an undergraduate degree in EE at a research focused university before graduate school.</p>
+    <div class="person-links">
+        <a href="https://github.com/SussyTestAccount"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
 
 </div>
