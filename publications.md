@@ -8,6 +8,52 @@ title: Publications
 
   <div class="publication">
     <div class="publication-image">
+      <img src="{{ '/assets/images/EmergentBehavior.png' | relative_url }}" alt="Publication Image">
+    </div>
+    <div class="publication-info">
+      <h2>Discovery and Deployment of Emergent Robot Swarm Behaviors via Representation Learning and Real2Sim2Real Transfer</h2>
+      <p><strong>Connor Mattson, Varun Raveendra, Ricardo Vega, Cameron Nowzari, Daniel S Drew, Daniel S Brown</strong></p>
+      <p><em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025), May 2025.</em></p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2502.15937"><i class="fas fa-file-alt"></i> arXiv</a>
+        <a href="https://arxiv.org/pdf/2502.15937"><i class="fas fa-file-pdf"></i> PDF</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="publication-image">
+      <img src="{{ '/assets/images/UncertaintyAwareSurgery.png' | relative_url }}" alt="Publication Image">
+    </div>
+    <div class="publication-info">
+      <h2>Early Failure Detection in Autonomous Surgical Soft-Tissue Manipulation via Uncertainty Quantification</h2>
+      <p><strong>Jordan Thompson, Ronald Koe, Anthony Le, Gabriella Goodman, Daniel S. Brown, Alan Kuntz</strong></p>
+      <p><em>Conference, Month, Year</em></p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2501.10561"><i class="fas fa-file-alt"></i> arXiv</a>
+        <a href="https://arxiv.org/pdf/2501.10561"><i class="fas fa-file-pdf"></i> PDF</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="publication-image">
+      <img src="{{ '/assets/images/Zero-ShotAutonomy.png' | relative_url }}" alt="Publication Image">
+    </div>
+    <div class="publication-info">
+      <h2>Toward Zero-Shot User Intent Recognition in Shared Autonomy</h2>
+      <p><strong>Atharv Belsare*, Zohre Karimi*, Connor Mattson*, Daniel S. Brown</strong></p>
+      <p><em>IEEE/ACM International Conference on Human-Robot Interaction (HRI), 2025.</em></p>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2501.08389"><i class="fas fa-file-alt"></i> arXiv</a>
+        <a href="https://arxiv.org/pdf/2501.08389"><i class="fas fa-file-pdf"></i> PDF</a>
+      </div>
+      <p class="note">* denotes equal contribution.</p>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div class="publication-image">
       <img src="{{ '/assets/images/Connor-publications/xprefs.gif' | relative_url }}" alt="Publication Image">
     </div>
     <div class="publication-info">
