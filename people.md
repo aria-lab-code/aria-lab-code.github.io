@@ -126,7 +126,7 @@ In my free time, you can find me playing tennis or swimming. I also enjoy readin
     </div>
   </div>
 
-  <h2>MS Students</h2>
+  <h2>Graduate Students</h2>
   <div class="person">
     <img src="{{ '/assets/images/SeongilHeo.jpeg' | relative_url }}" alt="Seongil" class="person-photo">
     <div class="person-info">
@@ -148,6 +148,18 @@ In my free time, you can find me playing tennis or swimming. I also enjoy readin
     <div class="person-links">
         <a href="https://github.com/parthbhandari1"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/parthbhandari/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <h2>Undergraduate Students</h2>
+  <div class="person">
+    <img src="{{ '/assets/images/ThomasFenno.jpg' | relative_url }}" alt="Thomas" class="person-photo">
+    <div class="person-info">
+      <h3>Thomas Fenno</h3>
+        <p>I'm an undergraduate student at the University of Utah majoring in Computer Science with a minor in Cognitive Science. My interests lie in AI Human-AI inter and AI safety. Currently, I'm working on research related to goal inference capabilities of AI agents by analyzing human behavior in dynamic environments, under the guidance of Dr. Daniel S. Brown. My long-term goal is to pursue a PhD and contribute to advancing AI in ways that are provably beneficial to citizens.</p>
+    <div class="person-links">
+        <a href="https://github.com/tomfenno"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </div>
