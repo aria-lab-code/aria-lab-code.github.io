@@ -1,0 +1,207 @@
+[
+  {
+    "role": "Faculty Members",
+    "items": [
+      {
+        "Id": 1,
+        "Name": "Daniel Brown",
+        "Image": "/images/people/1-DanielBrown.jpg",
+        "Role": "Faculty Members",
+        "Alumni": false,
+        "Bio": "I'm an assistant professor in the Kahlert School of Computing and the Robotics Center at the University of Utah. I completed my postdoc at UC Berkeley in 2022 and received my Ph.D. in Computer Science from UT Austin in 2020. My research broadly focuses on human-centered AI and human-AI alignment. My goal is to develop robots and other AI systems that can safely and efficiently interact with, learn from, teach, and empower human users. My lab's research spans the areas of human-robot interaction, reward and preference learning, human-in-the-loop machine learning, and AI safety. I am interested in applications in assistive, rehab, and surgical robotics, personal AI assistants, swarm robotics, and autonomous driving.",
+        "Filename": "1-DanielBrown.jpg",
+        "Url": "https://drive.google.com/file/d/1ubi7W-qVWN7Yn1URsF7DBNSeyzCpK0tT/view?usp=drive_link",
+        "Links": {
+          "Homepage": "https://users.cs.utah.edu/~dsbrown",
+          "Scholar": "https://scholar.google.com/citations?hl=en&user=A3wg18wAAAAJ&view_op=list_works&sortby=pubdate"
+        }
+      }
+    ]
+  },
+  {
+    "role": "PhD Students",
+    "items": [
+      {
+        "Id": 2,
+        "Name": "Connor Mattson",
+        "Image": "/images/people/2-ConnorMattson.png",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I am a second year Ph.D. Robotics Student in the Robotics Center and Kahlert School of Computing at the University of Utah. My primary research interests are Human-Robot Interaction, Multi-Agent RLHF, and Swarm Robotics. Currently I'm researching how machine learning can help humans understand what their robots are capable of, how we can efficiently leverage human input to teach multi-robot systems how to perform tasks, and how to share control of high-DoF robots between human teleoperators and AI. After my Ph.D., I plan to continue my research in a tenure-track faculty position at a research-focused university.",
+        "Filename": "2-ConnorMattson.png",
+        "Url": "https://drive.google.com/file/d/16QYZnUj8bI5tDSMlZgz0R2JNN7tPUiAz/view?usp=drive_link",
+        "Links": {
+          "Homepage": "https://users.cs.utah.edu/~cmattson",
+          "Scholar": "https://scholar.google.com/citations?user=mQgtCDAAAAAJ&hl=en",
+          "Github": "https://github.com/Connor-Mattson",
+          "Twitter": "https://x.com/connormat",
+          "LinkedIn": "https://www.linkedin.com/in/connorgmattson/"
+        }
+      },
+      {
+        "Id": 3,
+        "Name": "Eric Brewer",
+        "Image": "/images/people/3-EricBrewer.jpg",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I’m generally interested in learning algorithms, i.e., reinforcement learning, especially regarding perception.",
+        "Filename": "3-EricBrewer.jpg",
+        "Url": "https://drive.google.com/file/d/15blAApjRAdokoQm3xVK2yux6Cbl1n4kD/view?usp=drive_link",
+        "Links": {
+          "Github": "https://github.com/EricRobertBrewer"
+        }
+      },
+      {
+        "Id": 4,
+        "Name": "Zohre Karimi",
+        "Image": "/images/people/4-ZohreKarimi.jpg",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I am a third-year Ph.D. student in Robotics at the Kahlert School of Computing, University of Utah supervised by Dr. Daniel Brown. My research centers on Human-Robot Interaction and Surgical Robotics. To be more specific I am working on developing advanced reward learning techniques and imitation learning algorithms to enhance the capabilities of autonomous systems in surgical robotics. By integrating machine learning with robotics, I aim to improve precision, safety, and efficiency in robotic-assisted surgeries. In addition to this, I am engaged in projects exploring shared control between robots and humans, aiming to enhance collaborative interactions across various domains.",
+        "Filename": "4-ZohreKarimi.jpg",
+        "Url": "https://drive.google.com/file/d/1WTy9z5A4xPvjlIloU6oR4_KjI1r7lcAw/view?usp=drive_link",
+        "Links": {
+          "Homepage": "https://zohre-karimi.github.io"
+        }
+      },
+      {
+        "Id": 5,
+        "Name": "Atharv Belsare",
+        "Image": "/images/people/5-AtharvBelsare.jpg",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I am a first year Ph.D. student in Computer Science at the Kahlert School of Computing. My research interests include Human-Robot Interaction and Assistive Robotics.",
+        "Filename": "5-AtharvBelsare.jpg",
+        "Url": "https://drive.google.com/file/d/1NGI45RvsECMavEREA_lBCepJT4OhN3k-/view?usp=drive_link",
+        "Links": {}
+      },
+      {
+        "Id": 6,
+        "Name": "Zifan Wu",
+        "Image": "/images/people/6-ZifanWu.jpg",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I am a first-year Ph.D. student at the University of Utah. My primary research focus is on Deep Reinforcement Learning (DRL). Specifically, I've been investigating methods to improve the sample efficiency and safety of DRL algorithms. To that end, I delve into fields such as model-based RL, offline RL, constrained RL, and also representation learning. Currently I'm interested in studying the relationship between the data distribution shift during policy learning and the plasticity loss in the policy network (inability to adapt to unseen data distributions).",
+        "Filename": "6-ZifanWu.jpg",
+        "Url": "https://drive.google.com/file/d/15A08uMuwUMuCQgW5PLfvb0bzDDLxqMV9/view?usp=drive_link",
+        "Links": {
+          "Scholar": "https://scholar.google.com/citations?user=cHCsqP8AAAAJ&hl",
+          "Github": "https://github.com/zifanwu"
+        }
+      },
+      {
+        "Id": 7,
+        "Name": "Ali Larian",
+        "Image": "/images/people/7-AliLarian.jpg",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I am a PhD student at the University of Utah, working under the supervision of Dr. Daniel Brown. My research focuses on designing and implementing models that enable robots to self-assess their performance and operate independently of human supervision, while remaining aligned with human objectives. To achieve this, I use a variety of tools, including Reinforcement Learning (RL), Inverse Reinforcement Learning (IRL), Bayesian IRL, and learning from different types of human feedback. In my free time, you can find me playing tennis or swimming. I also enjoy reading and discussing topics related to economics.",
+        "Filename": "7-AliLarian.jpg",
+        "Url": "https://drive.google.com/file/d/1ZGGv2PObQwhLjF4M1ZThBxYbR5mV6bow/view?usp=drive_link",
+        "Links": {
+          "Github": "https://github.com/Alilarian"
+        }
+      },
+      {
+        "Id": 8,
+        "Name": "Akansha Kalra",
+        "Image": "/images/people/8-AkanshaKalra.png",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I'm a PhD student in the CS program advised by Dr. Daniel Brown. I graduated with an MS in Electrical and Computer Engineering from Carnegie Mellon University.",
+        "Filename": "8-AkanshaKalra.png",
+        "Url": "https://drive.google.com/file/d/10-WKNB5BD6gToHnin2YtdBKwS0dWcgi4/view?usp=drive_link",
+        "Links": {
+          "Homepage": "https://akansha-kalra.github.io",
+          "Scholar": "https://scholar.google.com/citations?user=QrkO660AAAAJ&hl=en",
+          "Github": "https://github.com/akansha-kalra"
+        }
+      },
+      {
+        "Id": 9,
+        "Name": "Varun Raveendra",
+        "Image": "/images/people/9-VarunRaveendra.jpg",
+        "Role": "PhD Students",
+        "Alumni": false,
+        "Bio": "I am a PhD student at the University of Utah. My research interests include Reinforcement Learning with Robots, RLHF, Swarm Robots, and Multi-Agent Robots.",
+        "Filename": "9-VarunRaveendra.jpg",
+        "Url": "https://drive.google.com/file/d/1c9AT8QejUcaML3vsYFj0n2Bqv475hj7N/view?usp=drive_link",
+        "Links": {
+          "Github": "https://github.com/varunraveendra",
+          "LinkedIn": "https://www.linkedin.com/in/varun-robotics"
+        }
+      }
+    ]
+  },
+  {
+    "role": "Graduate Students",
+    "items": [
+      {
+        "Id": 10,
+        "Name": "Seongil Heo",
+        "Image": "/images/people/10-SeongilHeo.jpg",
+        "Role": "Graduate Students",
+        "Alumni": false,
+        "Bio": "I am a first-year M.S. student in Computer Science at the University of Utah. I am advised by Professor Daniel Brown and conduct research focusing on multi-agent systems and Swarm Robotics.",
+        "Filename": "10-SeongilHeo.jpg",
+        "Url": "https://drive.google.com/file/d/1t3tYoy02uUZWU6dipWwYawJaGAuzO4jL/view?usp=drive_link",
+        "Links": {
+          "Homepage": "https://seongil-heo.com",
+          "Github": "https://github.com/seongilHeo",
+          "LinkedIn": "https://www.linkedin.com/in/seongil-heo"
+        }
+      },
+      {
+        "Id": 11,
+        "Name": "Parth Bhandari",
+        "Image": "/images/people/11-ParthBhandari.jpeg",
+        "Role": "Graduate Students",
+        "Alumni": false,
+        "Bio": "I am a first-year M.S. student majoring in Computer Science, working under the supervision of Dr. Daniel Brown. My research interests include Generative AI, Large Language Models, and I have experience with recommendation systems and conversational chatbots.",
+        "Filename": "11-ParthBhandari.jpeg",
+        "Url": "https://drive.google.com/file/d/1r0ZanHNLyuqyzb9AYVKFGVQaBjZGxQAH/view?usp=drive_link",
+        "Links": {
+          "Github": "https://github.com/parthbhandari1",
+          "LinkedIn": "https://www.linkedin.com/in/parthbhandari"
+        }
+      }
+    ]
+  },
+  {
+    "role": "Undergraduate Students",
+    "items": [
+      {
+        "Id": 12,
+        "Name": "Thomas Fenno",
+        "Image": "/images/people/12-ThomasFenno.jpg",
+        "Role": "Undergraduate Students",
+        "Alumni": false,
+        "Bio": "I'm an undergraduate student at the University of Utah majoring in Computer Science with a minor in Cognitive Science. My interests lie in AI Human-AI inter and AI safety. Currently, I'm working on research related to goal inference capabilities of AI agents by analyzing human behavior in dynamic environments, under the guidance of Dr. Daniel S. Brown. My long-term goal is to pursue a PhD and contribute to advancing AI in ways that are provably beneficial to citizens.",
+        "Filename": "12-ThomasFenno.jpg",
+        "Url": "https://drive.google.com/file/d/1XplzPQdv8BxTK5-1U0dqDTXADi4ZFnxP/view?usp=drive_link",
+        "Links": {
+          "Homepage": "https://github.com/tomfenno",
+          "Github": "https://github.com/tomfenno"
+        }
+      }
+    ]
+  },
+  {
+    "role": "Alumni",
+    "items": [
+      {
+        "Id": 13,
+        "Name": "Anda Xie",
+        "Image": "/images/people/13-AndaXie.jpg",
+        "Role": "Undergraduate Students",
+        "Alumni": true,
+        "Bio": "I am a High School Junior at West High School volunteering as an intern at the Kahlert School of Computing at the University of Utah. In the summer of 2024, I worked in Professor Daniel Brown’s research laboratory assisting in the construction of swarm robots for research in emergent behavior as well as the operation of a ROS control system. I am interested in both software and hardware development. I plan to pursue an undergraduate degree in EE at a research focused university before graduate school.",
+        "Filename": "13-AndaXie.jpg",
+        "Url": "https://drive.google.com/file/d/14W9Ru7dYdzLkZ84ZSc3gf-wIV9YbrBd8/view?usp=drive_link",
+        "Links": {
+          "Github": "https://github.com/SussyTestAccount"
+        }
+      }
+    ]
+  }
+]
