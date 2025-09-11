@@ -37,12 +37,11 @@ const People = () => {
                             <li key={item.Id} className="flex flex-col md:flex-row gap-md">
                                 {/* Thumbnail */}
                                 <Thumbnail id={item.Id} path={item.Image} />
-                                { }
                                 {/* Content */}
                                 <div className="space-y-xs">
                                     {/* Name */}
                                     <h3 className="text-ured">{item.Name}</h3>
-                                    {item.Alumni && <p className="font-bold">{item.Role}</p>}
+                                    {/* {item.Alumni && <p className="font-bold">{item.Role}</p>} */}
                                     {/* Bio */}
                                     <p>{item.Bio}</p>
                                     {/* Links */}
