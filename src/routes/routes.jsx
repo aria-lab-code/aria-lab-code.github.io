@@ -5,7 +5,7 @@ const People = React.lazy(() => import('@/pages/People'));
 const Research = React.lazy(() => import('@/pages/Research'));
 const Publications = React.lazy(() => import('@/pages/Publications'));
 const Videos = React.lazy(() => import('@/pages/Videos'));
-const News = React.lazy(() => import('@/pages/News'));
+const Photos = React.lazy(() => import('@/pages/Photos'));
 
 
 export const routes = [
@@ -14,5 +14,5 @@ export const routes = [
   { path: '/research', element: Research, title: "Research" },
   { path: '/publications', element: Publications, title: "Publications" },
   { path: '/videos', element: Videos, title: "Videos" },
-  { path: '/news', element: News,title: "News" },
+  { path: '/photos', element: Photos, title: "Photos" },
 ];

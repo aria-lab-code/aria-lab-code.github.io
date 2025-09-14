@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { home, news } from '@/data';
 import { Carousel } from '@/components';
 
@@ -11,7 +10,7 @@ const Home = () => {
             {/* Banner */}
             <section>
                 <h1 className="text-center" >{home.Title}</h1>
-                <Carousel imgList={home.BannerImages}/>
+                <Carousel imgList={home.BannerImages} />
             </section>
 
             {/* About Us */}
@@ -22,15 +21,14 @@ const Home = () => {
 
             {/* News */}
             <section>
-                <Link to="/news" ><h2>Recent News</h2>
-                    <ul className="space-y-sm ml-8 list-disc">
-                        {topNews.map((item, index) => (
-                            <li key={`news-${index}`}>
-                                {item.Content}
-                            </li>
-                        ))}
-                    </ul>
-                </Link>
+                <h2>Recent News</h2>
+                <ul className="space-y-sm ml-8 list-disc">
+                    {topNews.map((item, index) => (
+                        <li key={`news-${index}`}>
+                            {item.Content}
+                        </li>
+                    ))}
+                </ul>
             </section>
         </div>
     );

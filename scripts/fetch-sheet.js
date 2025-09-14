@@ -13,8 +13,8 @@ function parseTsv(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
   const lines = content.trim().split('\n');
   if (lines.length < 2) {
-    console.error(`No data found in TSV file: ${filePath}`);
-    process.exit(1);
+    console.warn(`No data found in TSV file: ${filePath}`);
+    return [];
   }
   const headers = lines[0].split('\t').map(h => h.trim());
   const data = lines.slice(1).map(line => {
@@ -69,7 +69,7 @@ function preHome(allRecords) {
 
   allRecords.forEach(item => {
     if (item.Id === 'BannerImage') {
-      const filename = path.join("/images/banner", item.Filename)
+      const filename = path.join("/images/photos", item.Filename)
       BannerImages.push(filename);
       imageArchive.push({ link: String(item.Url).trim(), out: filename });
     } else {
@@ -170,6 +170,18 @@ function preVideos(allRecords) {
   return allRecords;
 }
 
+function prePhotos(allRecords) {
+  allRecords.forEach(item => {
+    if (!item.Image) return;
+    // Set Image path
+    item.Image = path.join("/images/photos", item.Filename);
+    // Collect image archive entry
+    imageArchive.push({ link: String(item.Url).trim(), out: item.Image });
+  });
+
+  return allRecords;
+}
+
 function processHome() {
   const tsvPath = path.resolve(__dirname, '../home.tsv');
   const outPath = path.resolve(__dirname, '../src/data/home.json');
@@ -218,7 +230,6 @@ function processResearch() {
   console.log(`Deleted TSV file: ${tsvPath}`);
 }
 
-
 function processVideos() {
   const tsvPath = path.resolve(__dirname, '../videos.tsv');
   const outPath = path.resolve(__dirname, '../src/data/videos.json');
@@ -266,6 +277,22 @@ function processNews() {
   console.log(`Deleted TSV file: ${tsvPath}`);
 }
 
+function processPhotos() {
+  const tsvPath = path.resolve(__dirname, '../photos.tsv');
+  const outPath = path.resolve(__dirname, '../src/data/photos.json');
+  const url = process.env.PHOTOS_SHEET;
+  if (!url) {
+    console.error('Environment variable PHOTOS_SHEET not set');
+    process.exit(1);
+  }
+  execSync(`curl -L "${url}" -o "${tsvPath}"`, { stdio: 'inherit' });
+  const allRecords = parseTsv(tsvPath);
+  const data = prePhotos(allRecords);
+  writeJson(outPath, data);
+  fs.unlinkSync(tsvPath);
+  console.log(`Deleted TSV file: ${tsvPath}`);
+}
+
 function main() {
   processHome();
   processPeople();
@@ -273,12 +300,18 @@ function main() {
   processVideos();
   processPublications();
   processNews();
+  processPhotos();
 
-
-  // Write aggregated image archive (if any)
-  if (imageArchive.length > 0) {
-    const archivePath = path.resolve(__dirname, 'image-archive.json');
-    writeJson(archivePath, imageArchive);
+  const archivePath = path.resolve(__dirname, 'image-archive.json');
+  // Remove duplicate entries from imageArchive based on 'link' and 'out'
+  const uniqueArchive = Array.from(
+    new Map(imageArchive.map(item => [`${item.link}|${item.out}`, item])).values()
+  );
+  
+  
+  // Write aggregated image archive
+  if (uniqueArchive.length > 0) {
+    writeJson(archivePath, uniqueArchive);
   } else {
     console.log('No image archive entries found.');
   }

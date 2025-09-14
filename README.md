@@ -33,7 +33,7 @@ For more detailed information, please ask to [Seongil Heo](https://github.com/Se
 │   ├── robots.txt              # Web crawler rules
 │   └── images                  # Image folders
 │       ├── placeholder.png         # Default placeholder image
-│       ├── banner/                 # Banner images
+│       ├── photos/                 # Gallery images
 │       ├── people/                 # Member profile images
 │       ├── publications/           # Publication figures
 │       └── videos/                 # Video preview thumbnails

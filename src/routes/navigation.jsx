@@ -26,8 +26,8 @@ export const navigation = [
         to: "/videos",
     },
     {
-        title: "News",
-        key: "news",
-        to: "/news",
+        title: "Photos",
+        key: "photos",
+        to: "/photos",
     }
 ]
