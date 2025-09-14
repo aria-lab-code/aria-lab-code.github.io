@@ -29,14 +29,14 @@ For more detailed information, please ask to [Seongil Heo](https://github.com/Se
 ├── vite.config.js          # Vite build and server configuration
 ├── public/                 # Static assets served directly
 │   ├── 404.html                # Custom 404 page for GitHub Pages
-│   ├── manifest.json           # PWA manifest (optional)
+│   ├── manifest.json           # PWA manifest
 │   ├── robots.txt              # Web crawler rules
 │   └── images                  # Image folders
 │       ├── placeholder.png         # Default placeholder image
-│       ├── banner                  # Banner images
-│       ├── people                  # Member profile images
-│       ├── publications            # Publication figures
-│       └── videos                  # Video preview thumbnails
+│       ├── banner/                 # Banner images
+│       ├── people/                 # Member profile images
+│       ├── publications/           # Publication figures
+│       └── videos/                 # Video preview thumbnails
 ├── scripts                 # Utility scripts
 │   ├── download-images.js      # Script to download images from URLs in JSON data
 │   └── fetch-sheet.js          # Script to fetch and convert Google Sheet to JSON
@@ -48,8 +48,7 @@ For more detailed information, please ask to [Seongil Heo](https://github.com/Se
     ├── icons/              # Custom SVG icons
     ├── layout/             # Shared layout elements (Header, Footer, etc.)
     ├── pages/              # Route-specific page components
-    ├── routes/             # App route definitions
-    └── App.jsx             # (Duplicate entry; can be removed if redundant)
+    └── routes/             # App route definitions
 ```
 
 ## Features
