@@ -23,6 +23,7 @@ const AppContent = () => {
     const matchedRoute = routes.find(r => r.path === `/${path}`);
     const title = matchedRoute?.title ? `${matchedRoute.title}` : 'ARIA Lab';
     document.title = `${title} | Align Robust Interactive Autonomy Lab`;
+    window.scrollTo(0, 0);
   }, [location]);
 
   return (
