@@ -1,9 +1,12 @@
 import { Title } from '@/components';
-import { research } from '@/data';
+import { research, publications } from '@/data';
 
 const Research = () => {
     const data = research.data;
-
+    const pubIndex = new Map(
+        publications.map(p => [p.Id, { title: p.Title, arxiv: p.ArXiv }])
+    );
+    
     return (
         <div className="pages">
             <Title name="Research" />
@@ -46,15 +49,24 @@ const Research = () => {
                                 <span className="font-bold">{'Publications: '}</span>
                                 <span>
                                     {item.Publication.length > 0
-                                        ? <ul>
-                                            {Object.entries(item['Publication']).map(([key, value], index) =>
-                                                <li key={`publication-${index}`} className="list-[circle] ml-8">
-                                                    <span className="font-bold">{`${key}: `}</span>
-                                                    <span >{value}</span>
-                                                </li>
-                                            )}
-                                        </ul>
-                                        : <span className="text-ugray italic">It will be updated soon.</span>
+                                        ? (
+                                            <ul>
+                                                {item.Publication.map((id) => {
+                                                    const pub = pubIndex.get(id);
+                                                    if (!pub) return null;
+                                                    return (
+                                                        <li key={`publication-${id}`} className="list-[circle] ml-8">
+                                                            {
+                                                                pub.arxiv
+                                                                    ? (<a href={pub.arxiv} target="_blank" rel="noreferrer" className="italichover:text-blue-500">{pub.title}</a>)
+                                                                    : (<span>{pub.title}</span>)
+                                                            }
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                        )
+                                        : (<span className="text-ugray italic">It will be updated soon.</span>)
                                     }
                                 </span>
                             </li>
