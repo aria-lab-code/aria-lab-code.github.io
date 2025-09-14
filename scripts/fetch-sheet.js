@@ -13,8 +13,8 @@ function parseTsv(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
   const lines = content.trim().split('\n');
   if (lines.length < 2) {
-    console.error(`No data found in TSV file: ${filePath}`);
-    process.exit(1);
+    console.warn(`No data found in TSV file: ${filePath}`);
+    return [];
   }
   const headers = lines[0].split('\t').map(h => h.trim());
   const data = lines.slice(1).map(line => {
