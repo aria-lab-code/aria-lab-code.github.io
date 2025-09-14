@@ -39,8 +39,11 @@
 }
 
 @layer components {
+    .outlet-container {
+        @apply mt-14 sm:mt-18 md:mt-21 lg:mt-26 py-10 px-5 sm:px-10 md:px-20 lg:px-40 2xl:px-80 flex-1 flex bg-body;
+    }
     .pages {
-        @apply mt-14 sm:mt-18 md:mt-21 lg:mt-26 py-10 px-5 sm:px-10 md:px-20 lg:px-40 2xl:px-80 flex-1 space-y-4 md:space-y-8 bg-body;
+        @apply max-w-7xl w-full mx-auto space-y-4 md:space-y-8 flex-1;
     }
 }
 
