@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "Content": "Congrats to Atharv, Connor, and Zohre for getting their paper \"Toward Zero-Shot User Intent Recognition in Shared Autonomy\" accepted by the ACM/IEEE International Conference on Human-Robot Interaction (HRI'25)."
+  },
+  {
+    "Id": 2,
+    "Content": "Congrats to Chia, Eric, and Connor for getting their paper \"A dataset of paired head and eye movements during visual tasks in virtual environments\" accepted by Scientific Data - Nature."
+  },
+  {
+    "Id": 3,
+    "Content": "Congrats to Connor and Varun for their paper, \"Discovery and Deployment of Emergent Robot Swarm Behaviors via Representation Learning and Real2Sim2Real Transfer,\" accepted by the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS'25)"
+  },
+  {
+    "Id": 4,
+    "Content": "Congrats to Britton Jordan, Jordan Thompson, and James Ferguson for their paper \"ProbeMDE: Uncertainty-Guided Active Proprioception for Monocular Depth Estimation in Surgical Robotics.\", accepted to ICRA 2026!"
+  },
+  {
+    "Id": 5,
+    "Content": "Congrats to Eric Brewer and Colin Rubow (collaboration with Haohan Zhang) for their paper \"Towards Gaze-Driven Assistive Neck Exoskeletons via Virtual Reality Data Collection and Evaluation\", accepted to ICRA 2026!"
+  },
+  {
+    "Id": 6,
+    "Content": "Congrats to Connor and Varun for their paper \"R2BC: Multi-agent Imitation Learning from Single-Agent Demonstrations\", accepted to ICRA 2026!"
+  },
+  {
+    "Id": 7,
+    "Content": "Congrats to Qian Lin for getting his paper \"Safety Alignment from Crowd Preferences\" accepted for ICML!"
+  },
+  {
+    "Id": 8,
+    "Content": "Congrats to Zifan Wu for getting his paper \"Understanding the Effects of Neuron Dominance in Deep Reinforcement Learning\" accepted to TMLR!"
+  },
+  {
+    "Id": 9,
+    "Content": "Congrats to Ali Larian for getting his paper \"Multi-Modal, Multi-Environment Machine Teaching for Robust Reward Learning\" accepted to RLC!"
+  },
+  {
+    "Id": 10,
+    "Content": "Congrats to Akansha on getting her paper on behavioral cloning adversarial attacks accepted at SMC!"
+  },
+  {
+    "Id": 11,
+    "Content": "Congrats to Varun and Connor for their paper \"SyncSBC: Decentralized Swarm Behavior Prediction for Synchronized Autonomous Control\", accepted to IROS 2026!"
+  },
+  {
+    "Id": 12,
+    "Content": "Congrats to Atharv, Zohre, and Connor for their paper \"What Is My Robot Thinking? Design Considerations for Transparent and Trustworthy Shared Autonomy\", accepted to IROS 2026!"
+  },
+  {
+    "Id": 13,
+    "Content": "We had 3 papers accepted to RLC 2026 Workshops! Congrats to Thomas Fenno and Matthew Mitchell on getting a paper accepted to the RL and Video Games workshop, Blake Lawlor for getting his paper accepted to the continual learning workshop, and Akansha Kalra for getting her paper accepted to the RLBrew workshop!"
+  },
+  {
+    "Id": 14,
+    "Content": "Our lab was in the news on KUTV (CBS 2 Salt Lake City)! Special thanks to Connor Mattson and Zohre Karimi, who spoke with the station about human-AI collaboration and keeping humans in control. Read the full story: https://kutv.com/news/local/as-ai-races-forward-utah-researchers-work-to-keep-humans-in-control"
+  }
+]

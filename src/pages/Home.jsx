@@ -1,9 +1,36 @@
 import { home, news } from '@/data';
 import { Carousel } from '@/components';
 
+// News items are plain text from the sheet, so split out any URLs and render
+// them as real anchors instead of leaving them as unclickable text.
+const URL_SPLIT = /(https?:\/\/[^\s]+)/g;
+
+const Linkify = ({ text }) => (
+    <>
+        {String(text).split(URL_SPLIT).map((part, index) => {
+            if (!part.startsWith('http')) return part;
+            // Keep sentence punctuation that trails a URL out of the href.
+            const [, url, trailing] = part.match(/^(.*?)([.,;:!?]*)$/);
+            return (
+                <span key={`link-${index}`}>
+                    <a
+                        href={url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-ured underline break-words hover:text-blue-500"
+                    >
+                        {url}
+                    </a>
+                    {trailing}
+                </span>
+            );
+        })}
+    </>
+);
+
 const Home = () => {
     // Slice to show only the top 3 items
-    const topNews = news.reverse().slice(0, home.numNews);
+    const topNews = [...news].reverse().slice(0, home.numNews);
 
     return (
         <div className="pages">
@@ -25,7 +52,7 @@ const Home = () => {
                 <ul className="space-y-sm ml-8 list-disc">
                     {topNews.map((item, index) => (
                         <li key={`news-${index}`}>
-                            {item.Content}
+                            <Linkify text={item.Content} />
                         </li>
                     ))}
                 </ul>
